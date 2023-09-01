@@ -1,4 +1,3 @@
-import NavigationBar from 'components/NavigationBar';
 import React, { useEffect } from 'react';
 import { useLocation, useRoutes } from 'react-router-dom';
 import { authRoutes } from 'routes';

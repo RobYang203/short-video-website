@@ -32,7 +32,7 @@ function VideoListPanel({ isActive, list, vh }) {
     );
   return (
     <CarouselProvider
-      naturalSlideHeight={vh - 50}
+      naturalSlideHeight={vh}
       naturalSlideWidth={window.innerWidth}
       totalSlides={(list || []).length}
       orientation="vertical"
