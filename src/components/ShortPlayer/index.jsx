@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react';
 import { CarouselContext, Slide } from 'pure-react-carousel';
-import { Box, Image, chakra } from '@chakra-ui/react';
+import { Image, chakra } from '@chakra-ui/react';
 import ReactPlayer from 'react-player';
 import ProgressBar from 'components/ProgressBar';
 
